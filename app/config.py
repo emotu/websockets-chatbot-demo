@@ -15,10 +15,6 @@ class Settings(BaseSettings):
     DATABASE_URL: str
     DATABASE_ECHO: bool = True
 
-    # Redis
-    REDIS_URL: str
-    REDIS_NAMESPACE: str | None = "writer"
-
     # Writer AI
     WRITER_API_KEY: str
 

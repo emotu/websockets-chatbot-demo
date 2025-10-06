@@ -10,7 +10,9 @@ load_dotenv()
 
 client = Writer()
 
-AGENT_ID = "65c4b7e8-4e05-4c31-b880-43bdd254f048"
+AGENT_ID = (
+    "65c4b7e8-4e05-4c31-b880-43bdd254f048"  # This should IDEALLY come from the DB too.
+)
 
 
 async def writer_agent(dispatcher, thread_id, message_id):

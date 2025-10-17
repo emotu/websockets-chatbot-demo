@@ -12,7 +12,6 @@ dependencies = [
     "httpx>=0.28.1",
     "ipython>=9.5.0",
     "jinja2>=3.1.6",
-    "mypy>=1.18.2",
     "openai>=1.107.0",
     "orjson>=3.11.3",
     "pydantic-extra-types>=2.10.5",
@@ -41,5 +40,6 @@ plugins = ["pydantic.mypy"]
 [dependency-groups]
 dev = [
     "pytest>=8.4.2",
+    "mypy>=1.18.2",
 ]
 
